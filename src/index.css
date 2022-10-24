@@ -4,14 +4,30 @@
   box-sizing: border-box;
 }
 
+body{
+
+  font-family: 'Cuprum', sans-serif;
+
+  background: #222222;
+  color: #fff;
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
 .flex-center{
   display: flex;
   align-items: center;
   justify-content: center;
 
   height: 100vh;
-}
-
-.flex-center img{
-  width: 100%;
 }

@@ -1,13 +1,20 @@
 import './App.css';
-import logo from "./images/thumbnail-col.png";
+
+// Pages
+import { Home } from './Pages/Home/Home';
+
+// Router
+import { HashRouter as BrowserRouter, Routes, Route } from "react-router-dom";
+import Teste from './Pages/Teste/Teste';
 
 function App() {
   return (
-    <div className="container">
-      <div className="flex-center">
-        <img src={logo} alt="Logo do projeto em produção" />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home></Home>} />
+        <Route path="/teste" element={<Teste></Teste>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

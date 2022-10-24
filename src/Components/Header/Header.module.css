@@ -1,0 +1,10 @@
+.logo{
+    width: 50%;
+}
+
+.navlist{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
