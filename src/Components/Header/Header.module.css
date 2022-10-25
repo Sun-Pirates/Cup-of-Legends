@@ -5,6 +5,8 @@
 .navlist{
     display: flex;
 
+    position: relative;
+
     padding: 2em;
 
     justify-content: space-between;
@@ -44,4 +46,82 @@
 .navlist li button img{
     width: 1.171rem;
     margin-left: 5px;
+}
+
+/* Menu */
+
+.menu{
+    position: absolute;
+    width: 397px;
+    height: 450px;
+
+    top: 0;
+    right: 0;
+    right: -534px;
+
+    background-color: #d3a83c;
+    transition: 0.4s;
+
+    border-radius: 0px 0px 0px 50px;
+}
+
+.menu_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 2em;
+}
+
+.closed{
+    width: 97px;
+    height: 44px;
+
+    margin-top: 20px;
+
+    background: #EEF09E;
+    margin-left: 12em;
+}
+
+.closed button{
+    width: 92px;
+    height: 32px;
+
+    background: #FFFFFF;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closed button img{
+    width: 1rem;
+    margin-left: 10px;
+}
+
+.menu_list{
+    width: 225px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+
+    background: #EEF09E;
+}
+
+.menu_list li{
+    background: #EEF09E;
+
+    height: auto;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    margin-bottom: 15px;
+
+    color: #180505;
 }

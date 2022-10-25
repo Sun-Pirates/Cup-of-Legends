@@ -11,6 +11,7 @@ body{
   background: #222222;
   color: #fff;
 
+  overflow: hidden;
   overflow-y: hidden;
 }
 
@@ -40,4 +41,9 @@ a{
   justify-content: center;
 
   height: 100vh;
+}
+
+#inside{
+  transform: translateX(-395px);
+  transition: 0.4s;
 }
