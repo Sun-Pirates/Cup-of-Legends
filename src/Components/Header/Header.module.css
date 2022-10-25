@@ -1,10 +1,47 @@
 .logo{
-    width: 50%;
+    width: 5rem;
 }
 
 .navlist{
     display: flex;
 
+    padding: 2em;
+
     justify-content: space-between;
     align-items: center;
+}
+
+.navlist li{
+    width: 92px;
+    height: 38px;
+
+    background: #A57F2A;
+
+    border-radius: 2px;
+}
+
+.navlist li button{
+    width: 85px;
+    height: 35px;
+
+    background: #F5F5F5;
+    border: none;
+}
+
+.navlist li button:hover{
+
+    background: #EEF09E;
+    transition: 0.5s;
+
+}
+
+.navlist li a:hover{
+    color: #000;
+    transition: 0.4s;
+}
+
+
+.navlist li button img{
+    width: 1.171rem;
+    margin-left: 5px;
 }

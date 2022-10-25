@@ -22,6 +22,12 @@ li{
 
 a{
   text-decoration: none;
+  color: #222222;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
 }
 
 .flex-center{
