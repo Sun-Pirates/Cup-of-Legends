@@ -65,7 +65,7 @@ const Header = () => {
                     <Link>Jogos</Link>
                   </li>
                   <li>
-                    <Link>Baixar imagem</Link>
+                    <Link>Baixar</Link>
                   </li>
                   <li>
                     <Link>FAQ</Link>

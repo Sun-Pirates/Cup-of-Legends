@@ -43,6 +43,10 @@ a{
   height: 100vh;
 }
 
+.relative{
+  position: relative;
+}
+
 #inside{
   transform: translateX(-395px);
   transition: 0.4s;

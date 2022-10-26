@@ -46,6 +46,13 @@
 .navlist li button img{
     width: 1.171rem;
     margin-left: 5px;
+
+    transition: 0.4s;
+}
+
+.navlist li button img:hover{
+    transform: rotate(90deg);
+    transition: 0.4s;
 }
 
 /* Menu */
@@ -87,6 +94,8 @@
     width: 92px;
     height: 32px;
 
+    position: relative;
+
     background: #FFFFFF;
     border: none;
 
@@ -95,9 +104,19 @@
     justify-content: center;
 }
 
+.closed button:hover{
+    background: #A57F2A;
+    transition: 0.4s;
+}
+
 .closed button img{
     width: 1rem;
     margin-left: 10px;
+}
+
+.closed button img:hover{
+    animation: mark 2s infinite;
+    transition: 0.4s;
 }
 
 .menu_list{
@@ -107,7 +126,7 @@
     flex-direction: column;
     align-items: center;
 
-    padding: 10px;
+    padding: 1em;
 
     background: #EEF09E;
 }
@@ -124,4 +143,24 @@
     margin-bottom: 15px;
 
     color: #180505;
+}
+
+.menu_list li:hover{
+    width: 100%;
+    text-align: center;
+
+    background: #A57F2A;
+    transition: 0.5s;
+}
+
+@keyframes mark {
+  50%{
+    transform: rotate(90deg);
+    transition: 0.4s;
+  }
+
+  100%{
+    transform: rotate(0deg);
+    transition: 0.4s;
+  }
 }
