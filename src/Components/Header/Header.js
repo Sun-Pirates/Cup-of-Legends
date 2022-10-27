@@ -33,7 +33,7 @@ const Header = () => {
             <div className="flex">
               <li>
                 <button>
-                  <Link>
+                  <Link to="/download">
                     Baixe
                   </Link>
                 </button>
@@ -56,7 +56,7 @@ const Header = () => {
 
                 <ul className={styles.menu_list}>
                   <li>
-                    <Link>Home</Link>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
                     <Link>Grupos</Link>
@@ -65,7 +65,7 @@ const Header = () => {
                     <Link>Jogos</Link>
                   </li>
                   <li>
-                    <Link>Baixar</Link>
+                    <Link to="/download">Baixar</Link>
                   </li>
                   <li>
                     <Link>FAQ</Link>
