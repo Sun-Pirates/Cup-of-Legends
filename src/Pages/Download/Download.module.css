@@ -1,0 +1,6 @@
+.image_container{
+    width: 100%;
+
+    display: flex;
+    gap: 2em;
+}
