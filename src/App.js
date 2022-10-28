@@ -12,7 +12,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home></Home>} />
+<<<<<<< HEAD
         <Route path="/download" element={<Download></Download>} />
+=======
+        <Route path="/teste" element={<Teste></Teste>} />
+        
+>>>>>>> c04372d79fabe6d93aff08438800507a1ef3aedf
       </Routes>
     </BrowserRouter>
   );
