@@ -2,15 +2,32 @@
 import styles from "./Download.module.css";
 
 // Components
-import Header from "../../Components/Header/Header.js";
 import ImagesContent from "../../Components/Profile/ImagesContent";
+
+// Images
+import logo from "../../images/logo.svg";
+import left from "../../images/left-long-solid.svg";
+
+// Routes
+import { Link } from "react-router-dom";
 
 export const Download = () => {
   return (
     <>
     <div className='container'>
-      <Header></Header>
 
+      <nav className={styles.navbar}>
+        <ul className={styles.navbar_list}>
+          <li>
+            <Link to="/" className={styles.back}>
+              <img src={left} alt="seta pra voltar" />
+            </Link>
+          </li>
+          <li>              
+            <img src={logo} alt="Logo" className={styles.logo} />
+          </li>
+        </ul>
+      </nav>
       
       <main>
       <h1>Imagens de Perfil para usar durante os Jogos</h1>
